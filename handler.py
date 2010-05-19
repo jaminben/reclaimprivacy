@@ -32,6 +32,9 @@ class Newsletter(webapp.RequestHandler):
             logging.error('email not given')
         self.redirect('/')
 
+class Application(webapp.RequestHandler):
+    def get(self):
+        self.redirect("https://www.facebook.com")
 
 class Facebook(webapp.RequestHandler):
     def get(self):
@@ -402,6 +405,7 @@ olark.extend(function(api){
 
 
 application = webapp.WSGIApplication([
+    ('/application', Application),
     ('/newsletter', Newsletter),
     ('/facebook', Facebook),
     ('/help', Help),
