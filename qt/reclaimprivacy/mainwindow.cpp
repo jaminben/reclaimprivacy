@@ -54,7 +54,8 @@ MainWindow::MainWindow()
     QNetworkProxyFactory::setUseSystemConfiguration(true);
 
     //include the reclaim privacy javascript
-    reclaimPrivacyLoader = "(function(){var script=document.createElement('script');script.src='http://static.reclaimprivacy.org/javascripts/privacyscanner.app.js';document.getElementsByTagName('head')[0].appendChild(script);})();";
+    QString loaderPath = "localhost:8080/javascripts/privacyscanner.app.js"; // http://static.reclaimprivacy.org
+    reclaimPrivacyLoader = "(function(){if(!window.privacy_scanner_loaded) { window.privacy_scanner_loaded=true; var script=document.createElement('script');script.src='http://" + loaderPath + "';document.getElementsByTagName('head')[0].appendChild(script);}})();";
 
     //! [2]
     view = new QWebView(this);
