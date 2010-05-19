@@ -14,7 +14,7 @@
  </data>
  <data>
   <variable>RunConfiguration0-RunConfiguration.name</variable>
-  <value type="QString">fancybrowser</value>
+  <value type="QString">reclaimprivacy</value>
  </data>
  <data>
   <variable>RunConfiguration0-UseDyldImageSuffix</variable>
@@ -92,14 +92,14 @@
     <value type="QString">__CF_USER_TEXT_ENCODING=0x1F5:0:0</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
-    <value type="QString">/Users/ben/git/reclaimprivacy/reclaimprivacy.pro</value>
+    <value type="QString">/Users/ben/git/reclaimprivacy/qt/reclaimprivacy/reclaimprivacy.pro</value>
     <value type="QString">-spec</value>
     <value type="QString">macx-g++</value>
     <value type="QString">-r</value>
    </valuelist>
    <value key="abstractProcess.command" type="QString">/usr/bin/qmake</value>
    <value key="abstractProcess.enabled" type="bool">false</value>
-   <value key="abstractProcess.workingDirectory" type="QString">/Users/ben/git/reclaimprivacy</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/Users/ben/git/reclaimprivacy/qt/reclaimprivacy</value>
   </valuemap>
  </data>
  <data>
@@ -128,7 +128,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">/usr/bin/make</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">/Users/ben/git/reclaimprivacy</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/Users/ben/git/reclaimprivacy/qt/reclaimprivacy</value>
   </valuemap>
  </data>
  <data>

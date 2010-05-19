@@ -1,0 +1,5 @@
+1) Clean up message telling you to log into facebook.
+2) Get rid of the close button
+3) Add payment
+4) Comment and clean up code
+5) Make the javascript not continually scan in a loop (seems to be a somewhat major bug)
